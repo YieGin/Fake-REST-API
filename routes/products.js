@@ -264,7 +264,7 @@ const protuctData = [
   },
 ];
 
-router.get("/products", (req, res) => {
+router.post("/products", (req, res) => {
   res.status(200).json(protuctData);
 });
 
